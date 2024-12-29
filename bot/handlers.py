@@ -6,7 +6,7 @@ from gemini_api import process_with_gemini
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Handle the /start command"""
     welcome_message = (
-        "👋 Hello! I'm a bot powered by Google's Gemini AI.\n\n"
+        "👋 Hello! I'm a bot created by the darkest coder and powered by Google's Gemini Flash 2.0.\n\n"
         "You can start chatting with me by sending any message!"
     )
     await update.message.reply_text(welcome_message)
